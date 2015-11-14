@@ -1,0 +1,125 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+  background: #32215C;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #2B2B2A;
+  margin: 0;
+}
+
+article {
+  background: #FFFBA4;
+  margin: 5em 10em;
+  padding: 0.3em 3em 5em;
+}
+
+h1 {
+  text-align: center;
+  margin: 1.5em;
+  font-size: 3em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+#caption {
+  text-align: center;
+}
+
+#albums {
+
+  margin: auto;
+
+}
+
+#halfaxa{
+
+  float: left;
+
+  margin-bottom: 2em;
+
+}
+
+#darkbloom{
+
+  margin-bottom: 2em;
+
+}
+
+#visions{
+  clear: both;
+  float: left;
+
+
+
+}
+
+#artAngels{
+
+
+}
+
+
+
+#soundtrack {
+  margin-top: 5em;
+}
+
+
+footer{
+  text-align: center;
+  color: #FFF;
+  padding: 1em 10em;
+}
+
+
+@media (max-width: 850px) {
+
+  article{
+    margin: 0 auto;
+  }
+
+  #albums img {
+    margin: 0 auto;
+  }
+
+
+
+  #halfaxa{
+    float:none;
+    margin: 1em;
+  }
+
+  #darkbloom{
+
+    margin: 1em;
+  }
+
+  #visions{
+    float:none;
+
+    margin: 1em;
+  }
+
+  #artAngels{
+
+    margin: 1em;
+  }
+
+  #soundtrack{
+    display:block;
+    margin: 0 auto;
+  }
+
+  #songTitle{
+    text-align: center;
+  }
+
+}
